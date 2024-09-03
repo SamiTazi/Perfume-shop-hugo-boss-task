@@ -35,8 +35,6 @@ body {
     color: #333;
     background-color: #ffffff;
     line-height: 1.6;
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 
@@ -246,13 +244,12 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    
+    width: 100vw;
     max-height: 63px;
     background-color: #000000;
     padding: 10px;
     text-align: center;
     z-index: 9999;
-    max-width: 100%;
 
 }
 
