@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOSS Bottled Infinite</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <img src="assets/hugo-boss-logo-white.jpg" alt="BOSS Logo" class="logo">
+        <h1>BOSS BOTTLED INFINITE</h1>
+        <h2>#ManOfToday</h2>
+    </header>
+
+    <section class="about">              
+    </div>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/bossBottledInfiniteBottleLifestyle.jpg" alt="lifestyle"></div>
+            <div class="swiper-slide"><img src="assets/bossBottledInfinitePack.jpg" alt="infinitePack"></div>
+            <div class="swiper-slide"><img src="assets/bossBottledInfiniteBottle.jpg" alt="bottle"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        
+    </div>
+    </section>
+
+    <section class="ingredients">
+        <h3>THE INGREDIENTS</h3>
+        
+        <!-- Swiper container -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/apple.jpg" alt="apple"></div>
+                <div class="swiper-slide"><img src="assets/mandarin.jpg" alt="madarin"></div>
+                <div class="swiper-slide"><img src="assets/cinnamon.jpg" alt="cinnamon"></div>
+                <div class="swiper-slide"><img src="assets/sage.jpg" alt="sage"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            
+        </div>
+ 
+        <div class="ingredients-text"> 
+            <input id="btn" type="checkbox">
+            <p> The fragrance opens on a refreshing, sparkling top note of mandarin and apple, spiced up by a hint of cinnamon and sage. </p>
+            <div class="content">
+            <p> Warm, aromatic notes of patchouli, rosemary and lavender come together at the masculine heart. 
+            <br> The rich olivewood combined with sandalwood creates a smooth yet deep base note, unfolding harmoniously on skin.</p>
+            
+            <label for="btn">Show less</label>
+        </div>  
+           <label for="btn">Read more</label>
+        
+        </div>
+    </section>
+
+    <section class="cta">
+        <h4>REACH FOR INFINITE POSSIBILITIES</h4>
+        <div class ="chris-Hemsworth" >
+             <img src="assets/chrisHemsworth.jpg" alt="chris-Hemsworth">
+             <div class="chris-quote"> "Getting away from the chaos of urban life <br> and reconnecting with nature is a constant <br> goal in my life!" 
+                <p> - Chris Hemsworth </p> </div>
+        </div>        
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+
+</section>
+
+<div class="sticky-add-to-cart">
+    <button class="add-to-cart-btn">Add to Cart</button>
+</div>
+
+<footer>
+    &copy; 2024 BOSS Fragrances. All rights reserved. <br>
+     About us | Contact us | Privacy policy
+
+</footer>
+
+</body>
+
+</html>
