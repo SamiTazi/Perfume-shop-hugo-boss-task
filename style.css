@@ -245,29 +245,35 @@ footer {
     bottom: 0;
     left: 0;
     width: 100vw;
+    max-height: 63px;
     background-color: #000000;
     padding: 10px;
     text-align: center;
     z-index: 9999;
+
 }
 
 .add-to-cart-btn {
     background-color: #000000;
     color: white;
-    padding: 15px 10px;
     border: none;
     border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: 16px;
     font-family: mulibold;
     text-align: center;
     cursor: pointer;
-    width: 90%;
-    max-width: 150px;
+    width: 50%;
     margin: 0 auto;
     display: block;
 }
 
 .add-to-cart-btn:hover {
-    background-color: #2c2c2c;
-}
+    background-color: #ffffff;
+    color: #000;
+    font-family: mulibold;
+    font-size: 16px;
+ }
+
  
